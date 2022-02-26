@@ -1,0 +1,122 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.App {
+  height: 100vh;
+}
+
+.line {
+  background-color: #101214;
+  height: 6px;
+}
+
+.header {
+  background-color: #43c3cb;
+}
+
+.headers {
+  padding: 4.5rem 0 3rem 4.5rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.aside {
+  background-color: #3ca2dc;
+  color: #ffff;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+section {
+  margin-top: 1.5rem;
+}
+
+.userBlock {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  background: white;
+}
+
+.profile {
+  width: 10rem;
+  height: 10rem;
+}
+
+.avatar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem auto;
+}
+
+.avatar img {
+  object-fit: cover;
+}
+
+section > a {
+  font-size: xx-large;
+  color: #ffff;
+  margin-right: 1rem;
+}
+
+.main-container {
+  max-width: 31rem;
+  padding-left: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 5.5rem;
+  position: relative;
+}
+
+.job {
+  margin-bottom: 1.5rem;
+}
+
+h4,
+.job > span,
+.school > span {
+  color: #73808d;
+}
+
+button {
+  position: absolute;
+  top: 2rem;
+  left: 30rem;
+  padding: 10px;
+  border-radius: 0.8rem;
+}
+
+.dark{
+  background-color: #101214;
+  color: #ffff
+}
