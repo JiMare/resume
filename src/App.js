@@ -8,11 +8,13 @@ import { Main } from "./components/Main";
 function App() {
   return (
     <div className="App">
-      <BlackLine />
-      <Header name="Jitka Marešová" role="Junior React Developer" />
-      <Aside />
-      <Main />
-      <BlackLine />
+      <div className="resume">
+        <BlackLine />
+        <Header name="Jitka Marešová" role="Junior React Developer" />
+        <Aside />
+        <Main />
+        <BlackLine />
+      </div>
     </div>
   );
 }

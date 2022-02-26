@@ -116,7 +116,13 @@ button {
   border-radius: 0.8rem;
 }
 
-.dark{
+.dark {
   background-color: #101214;
-  color: #ffff
+  color: #ffff;
+}
+
+.resume {
+  max-width: 50%;
+  position: relative;
+  margin: 0 auto;
 }
