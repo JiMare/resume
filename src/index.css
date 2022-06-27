@@ -54,6 +54,7 @@ h2 {
   position: absolute;
   right: 0;
   top: 5px;
+  height: 100%;
 }
 
 section {
@@ -108,12 +109,18 @@ h4,
   color: #73808d;
 }
 
-button {
+.buttons {
   position: absolute;
   top: 2rem;
   left: 30rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
   padding: 10px;
   border-radius: 0.8rem;
+  cursor: pointer;
 }
 
 .dark {
@@ -125,4 +132,15 @@ button {
   max-width: 50%;
   position: relative;
   margin: 0 auto;
+}
+
+.gallery img {
+  max-width: 60%;
+}
+
+.img {
+  position: absolute;
+  top: 20rem;
+  left: 11.5rem;
+  transform: scale(2, 3);
 }

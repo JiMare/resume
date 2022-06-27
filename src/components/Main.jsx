@@ -1,37 +1,32 @@
 import React, { useState } from "react";
-import { experience, education } from "../data";
+import { Content } from "./Content";
+import { Gallery } from "./Gallery";
 
 export const Main = () => {
   const [isDark, setIsDark] = useState(false);
+  const [contentVisible, setContentVisible] = useState(true);
 
   const toggleDark = () => {
     setIsDark(!isDark);
   };
 
-  const label = isDark ? 'Light' : 'Dark';
+  const toggleCV = () => {
+    setContentVisible(!contentVisible);
+  }
+
+  const label = isDark ? "Light" : "Dark";
+  const secondLabel = contentVisible ? "Certificates" : "CV";
 
   return (
     <div className={isDark && "dark"}>
       <div className="main-container">
-        <h4>EXPERIENCE</h4>
-        {experience.map((job) => (
-          <div className="job">
-            <h3>{job.role}</h3>
-            <h5>{job.company}</h5>
-            <span>{job.date}</span>
-            <p>{job.description}</p>
-          </div>
-        ))}
-
-        <h4>EDUCATION</h4>
-        {education.map((item) => (
-          <div className="school">
-            <h3>{item.school}</h3>
-            <span>{item.date}</span>
-          </div>
-        ))}
-
-        <button onClick={toggleDark}>{label}</button>
+        {contentVisible ? <Content /> : <Gallery />}
+        <div className="buttons">
+          <button className="button" onClick={toggleDark}>
+            {label}
+          </button>
+          <button className="button" onClick={toggleCV}>{secondLabel}</button>
+        </div>
       </div>
     </div>
   );

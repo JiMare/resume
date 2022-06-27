@@ -1,20 +1,10 @@
-import { Aside } from "./components/Aside";
-import { BlackLine } from "./components/BlackLine";
-import { Header } from "./components/Header";
-import { Main } from "./components/Main";
-
-
+import React from "react";
+import { Resume } from "./components/Resume";
 
 function App() {
   return (
     <div className="App">
-      <div className="resume">
-        <BlackLine />
-        <Header name="Jitka Marešová" role="Junior React Developer" />
-        <Aside />
-        <Main />
-        <BlackLine />
-      </div>
+      <Resume />
     </div>
   );
 }
