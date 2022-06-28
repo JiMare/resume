@@ -152,6 +152,7 @@ h4,
 .gallery img:hover {
   transform: scale(2);
   margin-left: 7.8rem;
+  margin-top: 4rem;
 }
 
 @media screen and (min-width: 600px) {
