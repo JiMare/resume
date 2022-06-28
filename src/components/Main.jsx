@@ -14,8 +14,8 @@ export const Main = () => {
     setContentVisible(!contentVisible);
   }
 
-  const label = isDark ? "Light" : "Dark";
-  const secondLabel = contentVisible ? "Certificates" : "CV";
+  const label = isDark ? "Light mode" : "Dark mode";
+  const secondLabel = contentVisible ? "Certificates" : "Curriculum vitae";
 
   return (
     <div className={isDark && "dark"}>
