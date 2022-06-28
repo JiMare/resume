@@ -1,4 +1,5 @@
 export const data = {
+  name: "Jitka Marešová",
   mail: "jitkamares10@gmail.com",
   phone: "+420 721 642 353",
   address: "Písek",

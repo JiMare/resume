@@ -7,6 +7,7 @@ export const Aside = () => {
     <div className="aside">
       <Avatar url="./ja.jpg" />
       <section>
+        <p>{data.name}</p>
         <p>{data.mail}</p>
         <p>{data.phone}</p>
         <p>{data.address}</p>
