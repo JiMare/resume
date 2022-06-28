@@ -29,7 +29,7 @@ export const Aside = () => {
         </ul>
       </section>
       <section>
-        <h3>Others Skills</h3>
+        <h3>Other Skills</h3>
         <ul>
           {data.other.map((skill) => (
             <li key={skill}>{skill}</li>
