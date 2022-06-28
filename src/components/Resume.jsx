@@ -8,10 +8,13 @@ export const Resume = () => {
   return (
     <div className="resume">
       <BlackLine />
-      <Header name="Jitka Marešová" role="Junior React Developer" />
-      <Aside />
-      <Main />
-      <BlackLine />
+      <div className="resume__container">
+        <div className="resume__left-container">
+          <Header name="Jitka Marešová" role="Junior React Developer" />
+          <Main />
+        </div>
+        <Aside />
+      </div>
     </div>
   );
 }

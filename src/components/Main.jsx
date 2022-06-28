@@ -24,7 +24,7 @@ export const Main = () => {
           <button className="button" onClick={toggleDark}>
             {label}
           </button>
-          <button className="button" onClick={toggleCV}>
+          <button className="button button-cv" onClick={toggleCV}>
             {secondLabel}
           </button>
         </div>

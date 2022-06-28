@@ -18,8 +18,25 @@ ul {
   list-style: none;
 }
 
-.App {
+.app {
   height: 100vh;
+}
+
+.resume {
+  margin: 0 auto;
+}
+
+.resume__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume__left-container {
+  flex-basis: 100%;
+}
+
+.main-container {
+  padding: 2rem 0.8rem 3rem 2rem;
 }
 
 .line {
@@ -29,6 +46,7 @@ ul {
 
 .header {
   background-color: #b8f2e6;
+  display: none;
 }
 
 .headers {
@@ -51,9 +69,6 @@ h2 {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 3rem;
-  position: absolute;
-  right: 0;
-  top: 5px;
   height: 100%;
 }
 
@@ -91,14 +106,6 @@ section > a {
   margin-right: 1rem;
 }
 
-.main-container {
-  max-width: 31rem;
-  padding-left: 4rem;
-  padding-top: 2rem;
-  padding-bottom: 5.5rem;
-  position: relative;
-}
-
 .job {
   margin-bottom: 1.5rem;
 }
@@ -130,15 +137,13 @@ h4,
   background-color: #b8f2e6;
 }
 
+.button-cv {
+  display: none;
+}
+
 .dark {
   background-color: #101214;
   color: #ffff;
-}
-
-.resume {
-  max-width: 50%;
-  position: relative;
-  margin: 0 auto;
 }
 
 .gallery img {
@@ -150,4 +155,25 @@ h4,
   top: 20rem;
   left: 11.5rem;
   transform: scale(2, 3);
+}
+
+@media screen and (min-width: 1588px) {
+  .header {
+    display: block;
+  }
+  .resume {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .main-container {
+    max-width: 31rem;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .button-cv {
+    display: block;
+  }
 }

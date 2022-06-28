@@ -3,7 +3,7 @@ import { Resume } from "./components/Resume";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Resume />
     </div>
   );
