@@ -20,13 +20,15 @@ export const Main = () => {
   return (
     <div className={isDark && "dark"}>
       <div className="main-container">
-        {contentVisible ? <Content /> : <Gallery />}
         <div className="buttons">
           <button className="button" onClick={toggleDark}>
             {label}
           </button>
-          <button className="button" onClick={toggleCV}>{secondLabel}</button>
+          <button className="button" onClick={toggleCV}>
+            {secondLabel}
+          </button>
         </div>
+        {contentVisible ? <Content /> : <Gallery />}
       </div>
     </div>
   );

@@ -28,7 +28,7 @@ ul {
 }
 
 .header {
-  background-color: #43c3cb;
+  background-color: #b8f2e6;
 }
 
 .headers {
@@ -110,17 +110,24 @@ h4,
 }
 
 .buttons {
-  position: absolute;
-  top: 2rem;
-  left: 30rem;
   display: flex;
   gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 .button {
   padding: 10px;
   border-radius: 0.8rem;
   cursor: pointer;
+  background-color: #3ca2dc;
+  color: #ffff;
+  border: 0;
+  width: 8rem;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  background-color: #b8f2e6;
 }
 
 .dark {
