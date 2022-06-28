@@ -2,13 +2,14 @@ export const data = {
   mail: "jitkamares10@gmail.com",
   phone: "+420 721 642 353",
   address: "Písek",
-  knowledge: ["Frontend Developer", "Tester", "Backend Developer"],
+  knowledge: ["Frontend Developer", "Tester"],
   tools: [
-    "React, GraphQl, Postman",
-    "Altair, Javascript, Typescript",
+    "React, zustand, MobX",
+    "GraphQL, Postman, Altair",
+    "Javascript, Typescript",
     "Material UI, Figma, Adobe XD",
   ],
-  other: ["HTML, CSS, tailwind, twig", "PHP"],
+  other: ["HTML, CSS, Tailwind, Twig", "PHP"],
   languages: ["Czech (native)", "English (B2)"],
   social: [
     "https://www.linkedin.com/in/jitka-marešová/",
