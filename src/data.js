@@ -8,6 +8,8 @@ export const data = {
     "GraphQL, Postman, Altair",
     "Javascript, Typescript",
     "Material UI, Figma, Adobe XD",
+    "MongoDB, MySQL, SQL",
+    "Next.js"
   ],
   other: ["HTML, CSS, Tailwind, Twig", "PHP"],
   languages: ["Czech (native)", "English (B2)"],
