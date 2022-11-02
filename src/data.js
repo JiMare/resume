@@ -10,7 +10,7 @@ export const data = {
     "Javascript, Typescript",
     "Material UI, Figma, Adobe XD",
     "MongoDB, MySQL, SQL",
-    "Next.js"
+    "Next.js",
   ],
   other: ["HTML, CSS, Tailwind, Twig", "PHP"],
   languages: ["Czech (native)", "English (B2)"],
@@ -22,11 +22,25 @@ export const data = {
 
 export const experience = [
   {
+    role: "React Developer",
+    company: "Netrex",
+    date: "August 2022 - October 2022, Prague",
+    description:
+      "Work on netrex application, dropdown menu component, refactoring typography, development of application NDI plugin for axis cameras from scratch, NDI page, debugging, React, typescript, rest api, styled components, material ui",
+  },
+  {
     role: "Junior React Developer",
     company: "DNAI",
-    date: "September 2021 - Present, Prague",
+    date: "September 2021 - June 2022, Prague",
     description:
       "Work on application for logistics. Drag and drop, infinite scroll, breadcrumb navigation, pagination etc.",
+  },
+  {
+    role: "Junior React Developer",
+    company: "Kompilátor",
+    date: "February 2022 - May 2022, Prague",
+    description:
+      "Work on the development of the frontend of an application for tourism, styling components, debugging, loading component, work with advanced forms - useForm hook, Next.js",
   },
   {
     role: "Junior Tester",
@@ -38,7 +52,7 @@ export const experience = [
   {
     role: "Data processing",
     company: "Bisnode",
-    date: "February 2005 - Present, Prague",
+    date: "February 2005 - April 2021, Prague",
     description:
       "Transcript of financial statements, looking for bugs, internal editing program",
   },
@@ -54,4 +68,3 @@ export const education = [
     date: "1993 - 1997, Prague",
   },
 ];
-
